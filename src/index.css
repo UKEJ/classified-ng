@@ -1,142 +1,16 @@
-.navbar {
-  width: 100%;
-  border-bottom: 1px solid #e5e5e5;
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
-}
-
-.navbar-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 16px 32px;
-
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-.logo {
-  text-decoration: none;
   color: #111111;
-  font-size: 24px;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-.logo span {
-  color: #2563eb;
-}
-
-.search-box {
-  flex: 1;
-  display: flex;
-  max-width: 600px;
-}
-
-.search-box input {
-  width: 100%;
-  padding: 12px 16px;
-  border: 1px solid #d9d9d9;
-  border-radius: 8px 0 0 8px;
-  outline: none;
-  font-size: 14px;
-}
-
-.search-box input:focus {
-  border-color: #2563eb;
-}
-
-.search-box button {
-  border: none;
-  padding: 0 20px;
-  background: #2563eb;
-  color: white;
-  border-radius: 0 8px 8px 0;
-  cursor: pointer;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #222222;
-  font-size: 14px;
-  white-space: nowrap;
-}
-
-.nav-links a:hover {
-  color: #2563eb;
-}
-
-.join-btn {
-  border: none;
-  background: #111111;
-  color: white;
-  padding: 11px 18px;
-  border-radius: 7px;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.join-btn:hover {
-  background: #2563eb;
-}
-
-.products-section {
-  max-width: 1400px;
-  margin: 60px auto;
-  padding: 0 32px;
-}
-
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-}
-
-.product-card {
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #ffffff;
-}
-
-.product-image {
-  height: 220px;
-  background: #f1f1f1;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 12px;
-}
-
-.product-image span {
-  background: #111111;
-  color: #ffffff;
-  padding: 6px 10px;
-  border-radius: 5px;
-  font-size: 12px;
-}
-
-.product-info {
-  padding: 16px;
-}
-
-.product-info h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.product-price {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.product-location {
-  color: #777777;
-  font-size: 14px;
 }
